@@ -3,6 +3,14 @@
 
 This repository includes source code for Command & Conquer Generals, and its expansion pack Zero Hour. This release provides support to the Steam Workshop for both games ([C&C Generals](https://steamcommunity.com/workshop/browse/?appid=2229870) and [C&C Generals - Zero Hour](https://steamcommunity.com/workshop/browse/?appid=2732960)).
 
+## macOS / Apple Silicon
+
+This tree is the **archival Win32** EA release. It does not build or run natively on macOS as-is. Decompilation is unnecessary — the engine source is already present; proprietary SDKs and game assets are not.
+
+- Assessment: [docs/ASSESSMENT_MACOS_APPLE_SILICON.md](docs/ASSESSMENT_MACOS_APPLE_SILICON.md)
+- Play / build playbook: [docs/MACOS.md](docs/MACOS.md)
+- Mature native port: [GeneralsX](https://github.com/fbraz3/GeneralsX) (ARM64 via DXVK → MoltenVK → Metal)
+
 
 ## Dependencies
 
